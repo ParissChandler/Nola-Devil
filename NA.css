@@ -1,0 +1,223 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+a{
+  display: block;
+  float: left;
+}
+section>h2{
+  font-style: italic;
+  text-decoration: line-through;
+  font-size: 25px;
+  padding-left: 5px;
+  padding-top: 10px;
+  margin: 0;
+  float: left;
+  display: inline-block;
+}
+#t1{
+  border: 1px solid black;
+  height: 300px;
+  width: 100%;
+  float: left;
+  background: url(https://img1.etsystatic.com/000/0/5349832/il_570xN.217159669.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: black;
+}
+#t1>h1{
+  color: white;
+  font-style: italic;
+  font-size: 40px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: 20px;
+}
+#t1>p{
+  color: white;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: left;
+  margin-left: 30px;
+}
+#t1>p+p{
+  color: white;
+  margin-left: 35px;
+  font-weight: lighter;
+  margin-top: 20px;
+}
+#t1>span{
+  color: white;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 20px;
+  display: block;
+  margin-top: -135px;
+  margin-right: 75px;
+  float: right;
+}
+.b1{
+  background: url(https://s-media-cache-ak0.pinimg.com/736x/ff/b2/48/ffb2484bdc77d2a109f6584cc80b8357.jpg);
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.b1>p{
+  color: red;
+  font-size: 15px;
+  font-style: italic;
+  padding-top: 90%;
+  text-align: center;
+}
+.left{
+  border: 1px solid black:
+  height:100px;
+  width: 69%;
+  float: left;
+  margin-right: 0%;
+}
+.right{
+  border: 1px solid black;
+  height: 802px;
+  width: 30%;
+  float: right;
+}
+.b1{
+  border: 1px solid black;
+  height:350px;
+  width: 30%;
+  display: inline-block;
+  float: left;
+  margin-top: 12px;
+}
+.b2{
+  border: 1px solid black;
+  height:175px;
+  width: 30%;
+  display: inline-block;
+  float: right;
+  margin-top: 12px;
+}
+.b2>p{
+  color: black;
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: center;
+  padding-top: 18%;
+}
+.b2>p+span{
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+  text-align: right;
+}
+.b3{
+  border: 1px solid black;
+  height:170px;
+  width: 30%;
+  float: right;
+  margin-top: 190px;
+  margin-right: -280px;
+  background-color: white;
+}
+.b3>img{
+height: 168px;
+width: 277px;
+}
+.b4{
+  border: 1px solid black;
+  height: 50px;
+  width: 100%;
+  float: left;
+  margin-top: 90px;
+  background: url(http://dbclipart.com/wp-content/uploads/2016/03/Cartoon-skeleton-free-clipart-illustrations-cartoons-3d.jpg), url(http://dbclipart.com/wp-content/uploads/2016/03/Cartoon-skeleton-free-clipart-illustrations-cartoons-3d.jpg);
+  background-position: left, right;
+  background-repeat: no-repeat;
+  background-size: contain, contain;
+  background-color: grey;
+}
+.b4>p{
+  color: white;
+  font-style: italic;
+  font-weight: lighter;
+  text-align: center;
+}
+.b4>span{
+  color: white;
+  font-size: 20%;
+  font-style: normal;
+  font-weight: lighter;
+  padding-top: 10%;
+}
+.right>aside>nav>ul>li{
+  text-decoration: line-through;
+  list-style: none;
+  margin: 1px;
+  background-color: grey;
+  color: white;
+  font-size: 100%;
+  padding-top: 18%;
+  padding-bottom: 0;
+}
+.right{
+  background-color: grey;
+}
+h6{
+  color: black;
+  font-style: italic;
+  font-size: 110%;
+  margin-left: 90px;
+}
+footer{
+  border: 1px solid clear;
+  height:5px;
+  width:100%;
+  clear:both;
+}
+@media only screen and (max-width: 400px){
+  .left{
+    width:100%;
+  }
+  .right{
+    display: none;
+  }
+  .right>aside{
+    display:none;
+  }
+  h6{
+    display: none;
+  }
+  .right>section{
+    display: none;
+  }
+  #t1,.b1,.b2,.b3,.b3>img,.b4{
+    width: 100%;
+    margin:0;
+  }
+}
+@media (min-width:400px) and (max-width:600px){
+  .left{
+    width:100%;
+  }
+  .right{
+    display: none;
+  }
+  .right>aside{
+    display:none;
+  }
+  h6{
+    display: none;
+  }
+  .right>section{
+    display: none;
+  }
+  #t1,.b1,.b2,.b3,.b3>img,.b4{
+    width: 100%;
+    margin:0;
+  }
+}
